@@ -177,9 +177,6 @@ public class TreeCore {
             countSafer++;
             maxCounter++;
         }
-
-//        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$");
-//        System.out.println(this.root);
     }
 
     /**
@@ -242,16 +239,12 @@ public class TreeCore {
                     String dua = nodeBayangan.data();
 
                     if (dua.contains("(")) {
-//                        System.out.println("ADAAAAA --> "+xk.data()+" HEEY");
                         m = p.matcher(dua);
                         m.find();
                         dua = m.group(1);
                     }
 
                     if ((new StringTokenizer(satu).getTokenList().get(0).equals(new StringTokenizer(dua).getTokenList().get(0))) && (new StringTokenizer(satu).getTokenList().size() == new StringTokenizer(dua).getTokenList().size())) {
-//                        System.out.println("Dua " + dua);
-//                        System.out.println("Satu: " + satu);
-//                        System.out.println();
                         tambahkan = false;
                     }
 //                    System.out.println("Dua: "+dua);
@@ -379,26 +372,7 @@ public class TreeCore {
 
         }
 
-        /**
-         * Pemeriksaan element= bukan kelas
-         */
-        {
-
-//            System.out.println(this.root);
-//            Iterator<TreeNode<String>> iterTiga = bukanKelas.iterator();
-//            while (iterTiga.hasNext()) {
-//                TreeNode<String> elementBukanKelas = iterTiga.next();
-//                System.out.println(elementBukanKelas);
-//                System.out.println("Elemen bukan kelas: "+elementBukanKelas.data());
-//                System.out.println("Elemen bukan kelas parent: "+elementBukanKelas.parent().data());
-//                System.out.println();
-//            }
-        }
-
         if (bukanKelas.isEmpty()) {
-//            System.out.println(parent.parent());
-//            System.out.println(this.root);
-
             TreeNode<String> find = this.root.find("LOAN");
             System.out.println(find);
             System.out.println(find.isLeaf());
@@ -416,13 +390,6 @@ public class TreeCore {
             }
             String where = "";
             String select = "";
-
-//            if(sejarah.size() == 3){
-//                System.out.println(sejarah);
-//                System.out.println(this.root);
-//            }else{
-//                System.out.println(sejarah);
-//            }
             if (sejarah.size() % 2 == 0) {
 
                 for (int i = 0; i < sejarah.size(); i++) {
@@ -548,16 +515,13 @@ public class TreeCore {
                                 }
                             }
 
-                            /////////
                             if (!adanya) {
                                 nilaiPanggilan = nilaiBuf;
-//                            concasa.add(stringMapper);
                                 break;
                             }
                         }
                     }
                     TreeNode<String> baru = new ArrayMultiTreeNode(atributMapper.get(nilaiPanggilan));
-//                TreeNode<String> baru = new ArrayMultiTreeNode(atributMapper.get(atributMapper.lastKey()));
                     nodeSekarang.add(baru);
                 } catch (Exception e) {
                     e.printStackTrace();
