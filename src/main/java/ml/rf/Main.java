@@ -24,7 +24,7 @@ public class Main {
         try {
 
             Class.forName("org.apache.derby.jdbc.ClientDriver");
-            Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/pm", "herley", "rahasia");
+            Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/pm", args[0], args[1]);
 
             //<editor-fold defaultstate="collapsed" desc="String Manipulation Trial">
 //            String a = "select count ( y ) as hitung from X where ( HOUSING = 'no' ) AND ( PREVIOUS BETWEEN 0 AND 0) AND ( CAMPAIGN BETWEEN 1 AND 5) AND ( AGE BETWEEN 22 AND 61) AND ( JOB = 'services' ) AND ( JOB = 'technician') AND ( BALANCE BETWEEN 1205 AND 45248) AND ( LOAN = 'no') AND ( HOUSING = 'yes') AND ( DURATION BETWEEN 742 AND 2033) ";
