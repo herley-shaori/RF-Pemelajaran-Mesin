@@ -10,10 +10,12 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.SetMultimap;
 import com.scalified.tree.TreeNode;
 import com.scalified.tree.multinode.ArrayMultiTreeNode;
+import java.io.File;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -25,6 +27,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.apache.commons.collections4.OrderedMap;
 import org.apache.commons.collections4.map.LinkedMap;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.SerializationUtils;
+import org.apache.commons.lang3.Range;
 import org.apache.commons.text.StringTokenizer;
 
 /**
@@ -45,12 +50,30 @@ public class TreeCore {
     private TreeNode<String> root = null;
     private boolean repeatSubTreeParent = false;
 
+    private String oneTreeLabel = "";
+    private final Connection koneksi;
+
+    public TreeCore(Connection connection) {
+        this.koneksi = connection;
+
+        this.numericalAtr.add("AGE");
+        this.numericalAtr.add("BALANCE");
+        this.numericalAtr.add("DURATION");
+        this.numericalAtr.add("CAMPAIGN");
+        this.numericalAtr.add("PDAYS");
+        this.numericalAtr.add("PREVIOUS");
+        this.numericalAtr.add("DAY");
+        this.numericalAtr.add("MONTH");
+    }
+
     /**
      *
      * @param numericSeparator
      * @param connection
      */
     public TreeCore(int numericSeparator, Connection connection) {
+        this.koneksi = connection;
+
         this.numericalAtr.add("AGE");
         this.numericalAtr.add("BALANCE");
         this.numericalAtr.add("DURATION");
@@ -165,7 +188,7 @@ public class TreeCore {
         int maxCounter = 0;
         this.createSubTree(this.root, connection);
         TreeNode<String> subTreeParent = this.subTreeParent();
-        while (subTreeParent != null && maxCounter < 120) {
+        while (subTreeParent != null && maxCounter < ukuran) {
 //            System.out.println(subTreeParent.data());
             this.createSubTree(subTreeParent, connection);
             subTreeParent = this.subTreeParent();
@@ -217,13 +240,13 @@ public class TreeCore {
      */
     private void createSubTree(TreeNode<String> parent, Connection connection) {
         TreeNode<String> pointerNode = parent;
-        final List<String> sejarah = new ArrayList();
+        final List<String> historicalNode = new ArrayList();
         while (pointerNode != null) {
-            sejarah.add(pointerNode.data());
+            historicalNode.add(pointerNode.data());
             pointerNode = pointerNode.parent();
         }
 
-        Iterator<String> iterSatu = sejarah.iterator();
+        Iterator<String> iterSatu = historicalNode.iterator();
         while (iterSatu.hasNext()) {
             String atribut = iterSatu.next();
             Iterator<String> iterDua = this.featureAttribute.get(atribut).iterator();
@@ -262,7 +285,7 @@ public class TreeCore {
          * Penambahan node kelas.
          */
         {
-            sejarah.clear();
+            historicalNode.clear();
             Iterator<? extends TreeNode<String>> iterDua = parent.subtrees().iterator();
             while (iterDua.hasNext()) {
                 String where = "";
@@ -307,7 +330,7 @@ public class TreeCore {
                     e.printStackTrace();
                 }
 
-                sejarah.clear();
+                historicalNode.clear();
             }
         }
 
@@ -379,24 +402,24 @@ public class TreeCore {
         }
 
         Iterator<TreeNode<String>> iterTiga = bukanKelas.iterator();
-        sejarah.clear();
+        historicalNode.clear();
         while (iterTiga.hasNext()) {
             TreeNode<String> nodeSekarang = iterTiga.next();
             pointerNode = nodeSekarang;
-            sejarah.clear();
+            historicalNode.clear();
             while (pointerNode != null) {
-                sejarah.add(pointerNode.data());
+                historicalNode.add(pointerNode.data());
                 pointerNode = pointerNode.parent();
             }
             String where = "";
             String select = "";
-            if (sejarah.size() % 2 == 0) {
+            if (historicalNode.size() % 2 == 0) {
 
-                for (int i = 0; i < sejarah.size(); i++) {
+                for (int i = 0; i < historicalNode.size(); i++) {
                     if (i % 2 == 0) {
-                        where += " " + sejarah.get(i) + " " + " AND ";
+                        where += " " + historicalNode.get(i) + " " + " AND ";
                     } else {
-                        select += sejarah.get(i) + " , ";
+                        select += historicalNode.get(i) + " , ";
                     }
                 }
 
@@ -527,11 +550,309 @@ public class TreeCore {
                     e.printStackTrace();
                 }
             }
-            sejarah.clear();
+            historicalNode.clear();
         }
 
         System.out.println(this.root);
         System.out.println("*********************************************");
     }
 
+    /**
+     * Menyimpan pohon.
+     */
+    public void saveTree() {
+        try {
+            FileUtils.writeByteArrayToFile(new File("D:\\Netbeans Project\\RF\\riwayat\\" + System.currentTimeMillis() + ".tree"), SerializationUtils.serialize(this.root));
+            System.out.println("Tree has been saved");
+//            SerializationUtils.
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     *
+     * @param file
+     * @return
+     */
+    public TreeNode<String> loadTree(File file) {
+        try {
+            return (TreeNode<String>) SerializationUtils.deserialize(FileUtils.readFileToByteArray(file));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void deployPrediction(Collection<File> koleksiFile) {
+        int treeID = 1;
+        double jumlahBaris = 0.0;
+        double akurasi = 0.0;
+        try {
+            ResultSet pusat = this.koneksi.prepareStatement("select * from prediksi").executeQuery();
+            while (pusat.next()) {
+                final HashMap<String,Integer> koleksiKeputusan = new HashMap();
+                koleksiKeputusan.put("yes", 0);
+                koleksiKeputusan.put("no",0);
+                Iterator<File> iterFile = koleksiFile.iterator();
+                while (iterFile.hasNext()) {
+                    this.root = this.loadTree(iterFile.next());
+                    TreeNode<String> pointer = this.root;
+                    int pointerCurrentLevel = 0;
+                    String history = "";
+                    while (!pointer.data().equals(TreeCore.CLASS_YES) && !pointer.data().equals(TreeCore.CLASS_NO)) {
+                        String dataNode = pointer.data();
+                        if (this.numericalAtr.contains(dataNode)) {
+                            history += pointer.data() + " --> ";
+                            String query = "select " + dataNode + " from X";
+                            final ResultSet apocal = this.koneksi.prepareStatement(query).executeQuery();
+                            apocal.next();
+                            double hasil = apocal.getDouble(dataNode);
+                            Iterator<? extends TreeNode<String>> iterSatu = pointer.subtrees().iterator();
+                            final Set<TreeNode<String>> hashSet = new HashSet();
+                            while (iterSatu.hasNext()) {
+                                TreeNode<String> ne = iterSatu.next();
+                                if (ne.level() == (pointerCurrentLevel + 1)) {
+                                    hashSet.add(ne);
+                                }
+                            }
+                            Iterator<TreeNode<String>> iterDua = hashSet.iterator();
+                            TreeNode<String> untukPointer = null;
+                            while ((iterDua.hasNext()) && (untukPointer == null)) {
+                                TreeNode<String> ne = iterDua.next();
+                                String nilaiBilangan = ne.data().replaceAll("[^0-9]", " ");
+                                double min = Integer.parseInt(new StringTokenizer(nilaiBilangan).getTokenList().get(0));
+                                double max = Integer.parseInt(new StringTokenizer(nilaiBilangan).getTokenList().get(1));
+
+                                Range<Double> range = Range.between(min, max);
+                                if (range.contains(hasil)) {
+                                    untukPointer = ne;
+                                }
+                            }
+                            pointer = untukPointer;
+                            history += pointer.data() + " --> ";
+                            pointerCurrentLevel++;
+
+                            iterSatu = pointer.subtrees().iterator();
+                            hashSet.clear();
+                            while (iterSatu.hasNext()) {
+                                TreeNode<String> ne = iterSatu.next();
+                                if (ne.level() == (pointerCurrentLevel + 1)) {
+                                    hashSet.add(ne);
+                                }
+                            }
+
+                            if (hashSet.size() == 1) {
+                                pointer = hashSet.iterator().next();
+                            } else {
+                                System.err.println("Error, Ukuran Hash Set Tidak sama dengan 1, sistem berhenti");
+                                System.exit(0);
+                            }
+                        } else {
+                            history += pointer.data() + " --> ";
+                            String query = "select " + dataNode + " from X";
+                            final ResultSet apocal = this.koneksi.prepareStatement(query).executeQuery();
+                            apocal.next();
+                            String hasil = apocal.getString(dataNode);
+//                        System.out.println(pointer);
+
+                            Iterator<? extends TreeNode<String>> iterSatu = pointer.subtrees().iterator();
+                            TreeNode<String> tampungan = null;
+                            while ((iterSatu.hasNext()) && (tampungan == null)) {
+                                TreeNode<String> ne = iterSatu.next();
+                                if ((ne.level() == (pointerCurrentLevel + 1)) && (ne.data().contains(hasil))) {
+                                    tampungan = ne;
+                                }
+
+                            }
+
+                            pointer = tampungan;
+                            history += pointer.data() + " --> ";
+                            pointerCurrentLevel++;
+                            tampungan = null;
+                            iterSatu = pointer.subtrees().iterator();
+                            while ((iterSatu.hasNext()) && (tampungan == null)) {
+                                TreeNode<String> ne = iterSatu.next();
+                                if ((ne.level() == (pointerCurrentLevel + 1))) {
+                                    tampungan = ne;
+                                }
+                            }
+                            pointer = tampungan;
+                        }
+                        pointerCurrentLevel++;
+                    }
+                    List<String> tokenList = new StringTokenizer(history).getTokenList();
+                    history = "";
+                    tokenList.remove(tokenList.size() - 1);
+                    for (int i = 0; i < tokenList.size(); i++) {
+                        history += tokenList.get(i) + " ";
+                    }
+                    System.out.println("-------------------------");
+                    System.out.println("TreeID: "+treeID);
+                    System.out.println("History: "+history);
+                    treeID++;
+                    System.out.println("-------------------------");
+                    String predicted = "";
+                    if (tokenList.get(tokenList.size() - 1).contains("yes")) {
+                        predicted = "yes";
+                    } else {
+                        predicted = "no";
+                    }
+                    koleksiKeputusan.put(predicted, koleksiKeputusan.get(predicted)+1);
+                }
+                String predicted = "";
+                // Jumlah keputusan lebih besar sama dengan yes.
+                if(koleksiKeputusan.get("yes") >= koleksiKeputusan.get("no")){
+                    predicted = "yes";
+                }else{
+                    predicted = "no";
+                }
+                
+                String actual = pusat.getString("Y");
+                
+                if(actual.equals(predicted)){
+                    akurasi++;
+                }
+                treeID = 1;
+                jumlahBaris++;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("Correctly Predicited: " + akurasi);
+        System.out.println("Total Predicted Data: " + jumlahBaris);
+        System.out.println("Overall System Accuracy = " + (akurasi / jumlahBaris) * 100 + "%");
+    }
+
+    /**
+     * Prediksi data yang sudah terdapat didalam sistem basis data sebelumnya.
+     *
+     * @param root
+     */
+    public void deployPrediction(TreeNode<String> root) {
+        double lineCounter = 0;
+        double accuracy = 0;
+        try {
+            this.root = root;
+            this.rs = this.koneksi.prepareStatement("select * from prediksi").executeQuery();
+
+            TreeNode<String> pointer = this.root;
+            int pointerCurrentLevel = 0;
+            while (this.rs.next()) {
+                String history = "";
+                while (!pointer.data().equals(TreeCore.CLASS_YES) && !pointer.data().equals(TreeCore.CLASS_NO)) {
+                    String dataNode = pointer.data();
+                    if (this.numericalAtr.contains(dataNode)) {
+                        history += pointer.data() + " --> ";
+                        String query = "select " + dataNode + " from X";
+                        final ResultSet apocal = this.koneksi.prepareStatement(query).executeQuery();
+                        apocal.next();
+                        double hasil = apocal.getDouble(dataNode);
+                        Iterator<? extends TreeNode<String>> iterSatu = pointer.subtrees().iterator();
+                        final Set<TreeNode<String>> hashSet = new HashSet();
+                        while (iterSatu.hasNext()) {
+                            TreeNode<String> ne = iterSatu.next();
+                            if (ne.level() == (pointerCurrentLevel + 1)) {
+                                hashSet.add(ne);
+                            }
+                        }
+                        Iterator<TreeNode<String>> iterDua = hashSet.iterator();
+                        TreeNode<String> untukPointer = null;
+                        while ((iterDua.hasNext()) && (untukPointer == null)) {
+                            TreeNode<String> ne = iterDua.next();
+                            String nilaiBilangan = ne.data().replaceAll("[^0-9]", " ");
+                            double min = Integer.parseInt(new StringTokenizer(nilaiBilangan).getTokenList().get(0));
+                            double max = Integer.parseInt(new StringTokenizer(nilaiBilangan).getTokenList().get(1));
+
+                            Range<Double> range = Range.between(min, max);
+                            if (range.contains(hasil)) {
+                                untukPointer = ne;
+                            }
+                        }
+                        pointer = untukPointer;
+                        history += pointer.data() + " --> ";
+                        pointerCurrentLevel++;
+
+                        iterSatu = pointer.subtrees().iterator();
+                        hashSet.clear();
+                        while (iterSatu.hasNext()) {
+                            TreeNode<String> ne = iterSatu.next();
+                            if (ne.level() == (pointerCurrentLevel + 1)) {
+                                hashSet.add(ne);
+                            }
+                        }
+
+                        if (hashSet.size() == 1) {
+                            pointer = hashSet.iterator().next();
+                        } else {
+                            System.err.println("Error, Ukuran Hash Set Tidak sama dengan 1, sistem berhenti");
+                            System.exit(0);
+                        }
+                    } else {
+                        history += pointer.data() + " --> ";
+                        String query = "select " + dataNode + " from X";
+                        final ResultSet apocal = this.koneksi.prepareStatement(query).executeQuery();
+                        apocal.next();
+                        String hasil = apocal.getString(dataNode);
+//                        System.out.println(pointer);
+
+                        Iterator<? extends TreeNode<String>> iterSatu = pointer.subtrees().iterator();
+                        TreeNode<String> tampungan = null;
+                        while ((iterSatu.hasNext()) && (tampungan == null)) {
+                            TreeNode<String> ne = iterSatu.next();
+                            if ((ne.level() == (pointerCurrentLevel + 1)) && (ne.data().contains(hasil))) {
+                                tampungan = ne;
+                            }
+
+                        }
+
+                        pointer = tampungan;
+                        history += pointer.data() + " --> ";
+                        pointerCurrentLevel++;
+                        tampungan = null;
+                        iterSatu = pointer.subtrees().iterator();
+                        while ((iterSatu.hasNext()) && (tampungan == null)) {
+                            TreeNode<String> ne = iterSatu.next();
+                            if ((ne.level() == (pointerCurrentLevel + 1))) {
+                                tampungan = ne;
+                            }
+                        }
+                        pointer = tampungan;
+                    }
+                    pointerCurrentLevel++;
+                }
+                List<String> tokenList = new StringTokenizer(history).getTokenList();
+                history = "";
+                tokenList.remove(tokenList.size() - 1);
+                for (int i = 0; i < tokenList.size(); i++) {
+                    history += tokenList.get(i) + " ";
+                }
+                System.out.println("History: " + history);
+                String actual = this.rs.getString("Y");
+
+                String predicted = "";
+                if (tokenList.get(tokenList.size() - 1).contains("yes")) {
+                    predicted = "yes";
+                } else {
+                    predicted = "no";
+                }
+
+                System.out.println("Predicted: " + predicted);
+                System.out.println("Actual: " + actual);
+                if (actual.equals(predicted)) {
+                    accuracy++;
+                }
+                pointerCurrentLevel = 0;
+                pointer = this.root;
+                System.out.println("Counter: " + lineCounter);
+                System.out.println("-------------------------------");
+                lineCounter++;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("Correctly Predicited: " + accuracy);
+        System.out.println("Total Predicted Data: " + lineCounter);
+        System.out.println("Overall System Accuracy = " + (accuracy / lineCounter) * 100 + "%");
+    }
 }

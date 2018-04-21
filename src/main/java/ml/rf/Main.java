@@ -5,9 +5,12 @@
  */
 package ml.rf;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.Collection;
 import ml.secrf.TreeCore;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
@@ -22,7 +25,7 @@ public class Main {
 
             Class.forName("org.apache.derby.jdbc.ClientDriver");
             Connection connection = DriverManager.getConnection("jdbc:derby://localhost:1527/pm", "herley", "rahasia");
-            
+
             //<editor-fold defaultstate="collapsed" desc="String Manipulation Trial">
 //            String a = "select count ( y ) as hitung from X where ( HOUSING = 'no' ) AND ( PREVIOUS BETWEEN 0 AND 0) AND ( CAMPAIGN BETWEEN 1 AND 5) AND ( AGE BETWEEN 22 AND 61) AND ( JOB = 'services' ) AND ( JOB = 'technician') AND ( BALANCE BETWEEN 1205 AND 45248) AND ( LOAN = 'no') AND ( HOUSING = 'yes') AND ( DURATION BETWEEN 742 AND 2033) ";
 //
@@ -33,9 +36,20 @@ public class Main {
 //                System.out.println(m.group(1));
 //            }
 //</editor-fold>
+            int jumlahTree = 3;
+//            for (int i = 0; i < jumlahTree; i++) {
+//                final TreeCore treeCore = new TreeCore(300, connection);
+//                treeCore.saveTree();
+//                System.out.println("TREE "+i+" SELESAI");
+//            }
 
-            final TreeCore treeCore = new TreeCore(300, connection);
-            
+            final TreeCore treeCore = new TreeCore(connection);
+            Collection<File> listFiles = FileUtils.listFiles(new File("D:\\Netbeans Project\\RF\\riwayat"), new String[]{"tree"}, true);
+            treeCore.deployPrediction(listFiles);
+
+//            treeCore.deployPrediction(treeCore.loadTree(new File("pohon.tree")));
+//            treeCore.saveTree();
+//            treeCore.deployPrediction();
             //<editor-fold defaultstate="collapsed" desc="TreeCore Trial">
 //            final Core core = new Core(1, connection);
 //            final TreeNode<String> n1 = new ArrayMultiTreeNode("root");

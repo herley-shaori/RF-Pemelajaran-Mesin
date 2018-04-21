@@ -1,0 +1,2519 @@
+cd D:\Netbeans Project\RF; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_152" cmd /c "\"\"C:\\Program Files\\NetBeans 8.2\\java\\maven\\bin\\mvn.bat\" -Dexec.args=\"-classpath %classpath ml.rf.Main\" -Dexec.executable=\"C:\\Program Files\\Java\\jdk1.8.0_152\\bin\\java.exe\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 org.codehaus.mojo:exec-maven-plugin:1.2.1:exec\""
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building RF 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- exec-maven-plugin:1.2.1:exec (default-cli) @ RF ---
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 0.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 1.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 2.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 3.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 4.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 5.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 6.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 7.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 8.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 9.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 10.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 11.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 12.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 13.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 14.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 15.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 16.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 17.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 18.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 19.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 20.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 21.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 22.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 23.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 24.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 25.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 26.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 27.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 28.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 29.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 30.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 31.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 32.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 33.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 34.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 35.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 36.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 37.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 38.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 39.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 40.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 41.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 42.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 43.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 44.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 45.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 46.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 47.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 48.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 49.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 50.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 51.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 52.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 53.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 54.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 55.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 56.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 57.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 58.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 59.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 60.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 61.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 62.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 63.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 64.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 65.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 66.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 67.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 68.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 69.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 70.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 71.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 72.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 73.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 74.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 75.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 76.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 77.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 78.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 79.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 80.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 81.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 82.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 83.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 84.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 85.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 86.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 87.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 88.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 89.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 90.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 91.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 92.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 93.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 94.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 95.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 96.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 97.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 98.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 99.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 100.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 101.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 102.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 103.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 104.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 105.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 106.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 107.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 108.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 109.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 110.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 111.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 112.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 113.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 114.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 115.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 116.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 117.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 118.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 119.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 120.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 121.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 122.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 123.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 124.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 125.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 126.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 127.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 128.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 129.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 130.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 131.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 132.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 133.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 134.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 135.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 136.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 137.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 138.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 139.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 140.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 141.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 142.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 143.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 144.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 145.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 146.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 147.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 148.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 149.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 150.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 151.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 152.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 153.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 154.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 155.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 156.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 157.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 158.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 159.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 160.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 161.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 162.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 163.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 164.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 165.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 166.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 167.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 168.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 169.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 170.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 171.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 172.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 173.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 174.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 175.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 176.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 177.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 178.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 179.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 180.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 181.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 182.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 183.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 184.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 185.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 186.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 187.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 188.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 189.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 190.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 191.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 192.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 193.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 194.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 195.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 196.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 197.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 198.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 199.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 200.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 201.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 202.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 203.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 204.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 205.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 206.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 207.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 208.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 209.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 210.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 211.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 212.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 213.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 214.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 215.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 216.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 217.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 218.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 219.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 220.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 221.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 222.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 223.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 224.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 225.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 226.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 227.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 228.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 229.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 230.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 231.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 232.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 233.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 234.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 235.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 236.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 237.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 238.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 239.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 240.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 241.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 242.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 243.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 244.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 245.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 246.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 247.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 248.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 249.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 250.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 251.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 252.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 253.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 254.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 255.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 256.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 257.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 258.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 259.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 260.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 261.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 262.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 263.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 264.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 265.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 266.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 267.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 268.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 269.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 270.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 271.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 272.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 273.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 274.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 275.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 276.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 277.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 278.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 279.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 280.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 281.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 282.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 283.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 284.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 285.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 286.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 287.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 288.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 289.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 290.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 291.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 292.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 293.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 294.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 295.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 296.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 297.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 298.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 299.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 300.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 301.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 302.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 303.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 304.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 305.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 306.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 307.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 308.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 309.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 310.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 311.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 312.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 313.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 314.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 315.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 316.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 317.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 318.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 319.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 320.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 321.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 322.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 323.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 324.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 325.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 326.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 327.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 328.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 329.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 330.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 331.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 332.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 333.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 334.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 335.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 336.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 337.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 338.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 339.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 340.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 341.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 342.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 343.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 344.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 345.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 346.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 347.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 348.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 349.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 350.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 351.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 352.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 353.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 354.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 355.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 356.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 357.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 358.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 359.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 360.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 361.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 362.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 363.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 364.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 365.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 366.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 367.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 368.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 369.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 370.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 371.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 372.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 373.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 374.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 375.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 376.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 377.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 378.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 379.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 380.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 381.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 382.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 383.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 384.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 385.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 386.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 387.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 388.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 389.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 390.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 391.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 392.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 393.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 394.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 395.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 396.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 397.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 398.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 399.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 400.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 401.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 402.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 403.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 404.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 405.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 406.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 407.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 408.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 409.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 410.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 411.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 412.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 413.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 414.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 415.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 416.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 417.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 418.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 419.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 420.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 421.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 422.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 423.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 424.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 425.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 426.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 427.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 428.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 429.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 430.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 431.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 432.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 433.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 434.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 435.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 436.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 437.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 438.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 439.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 440.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 441.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 442.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 443.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 444.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 445.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 446.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 447.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 448.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 449.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 450.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 451.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 452.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 453.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 454.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 455.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 456.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 457.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 458.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 459.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 460.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 461.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 462.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 463.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 464.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 465.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 466.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 467.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 468.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 469.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 470.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 471.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 472.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 473.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: yes
+Counter: 474.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 475.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 476.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 477.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 478.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 479.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 480.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 481.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 482.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 483.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 484.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 485.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 486.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 487.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 488.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 489.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 490.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 491.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 492.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 493.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 494.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 495.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 496.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 497.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 498.0
+-------------------------------
+History: DURATION --> ( DURATION BETWEEN 2 AND 730 ) --> JOB --> (JOB = 'management') --> LOAN --> (LOAN = 'no') 
+Predicted: no
+Actual: no
+Counter: 499.0
+-------------------------------
+Correctly Predicited: 489.0
+Total Predicted Data: 500.0
+Overall System Accuracy = 97.8%
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 1.841s
+Finished at: Sun Apr 22 00:42:09 ICT 2018
+Final Memory: 6M/123M
+------------------------------------------------------------------------
